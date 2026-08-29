@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "phwgna STV signed update metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "releaseUrl", "sha256", "publishedAt", "signature"],
+  "properties": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "releaseUrl": {
+      "type": "string",
+      "pattern": "^https://github\\.com/itzmonnz/phwgna-stv-updates/releases/"
+    },
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "publishedAt": { "type": "string", "format": "date-time" },
+    "signature": { "type": "string", "minLength": 80, "maxLength": 120 }
+  }
+}
