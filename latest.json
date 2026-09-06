@@ -1,7 +1,7 @@
 {
-  "version": "0.2.2",
-  "releaseUrl": "https://github.com/itzmonnz/phwgna-stv-updates/releases/tag/v0.2.2",
-  "sha256": "6bcf8eb6cb2cc0112d2763f7a613abf6e2642ff7f713534ac45e9d774d72dd01",
-  "publishedAt": "2026-09-06T09:42:27.557Z",
-  "signature": "yYzj0Iciz/xSUaPuFvMrmXcTcAqKe/rORtno0oiKOJg98k+Uks4W/L1G1Amw2NXGKm4qgfShkuFQik8krsvBDQ=="
+  "version": "0.2.3",
+  "releaseUrl": "https://github.com/itzmonnz/phwgna-stv-updates/releases/download/v0.2.3/phwgna-stv-0.2.3.zip",
+  "sha256": "fd991e5d348c80c09ca18bdf22d9bdd6e4a21d0176951327a83228fe832a7103",
+  "publishedAt": "2026-09-06T10:13:14.682Z",
+  "signature": "rRA9HTjhojc2MsGIQY2yJHFYXmMtAHfucTWQWeG2G6pfpHyJbe01L7GFl4rEBEBVrOZHJi+1DBF5rrNG4nn9Cw=="
 }
